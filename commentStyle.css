@@ -1,0 +1,203 @@
+
+
+
+#headMess {
+
+    width: 100%;
+	background-color: black;
+	height: 100px;
+	position: relative;
+}
+
+#headLine{
+	
+	color: white;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 20%;
+	
+}
+#post {
+	
+	margin: 10%;
+	font-size: 1.5em;
+	line-height: 1.5;
+	
+	
+}
+
+div.wrap {
+	
+	width: 60%;
+	margin: 3em auto 1em auto;
+	position: relative;
+		
+}
+
+div.wrap:first-child{
+	
+	margin-top: 1em;
+	
+}
+
+div.comment {
+	
+	font-size: 1.5em;
+	position: relative;
+	margin-left: 60px;
+	border-radius: 0.75em 0.75em 0.75em 0.75em;
+	background-color: #ccc;
+	line-height: 1.4em;
+	padding-top: 10px;
+	margin-bottom: 40px;
+	
+}
+
+div.comment:after {
+	
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	border: 10px solid transparent;
+	border-right: 10px solid #ccc;
+	margin: -10px 0 0 -20px; 
+	
+}
+
+.comment h2.owner {
+	
+	width: 80%;
+	margin: 5px auto;
+	border-bottom: 2px solid #333;
+	
+}
+
+div.comment p{
+	
+	width: 80%;
+	margin: 0 auto 1em auto;
+	
+}
+
+img {
+	
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    float: left;
+    border-radius: 10px;
+    margin-top: -25px;
+	
+}
+
+p + ol.postscript {
+	
+    width: 80%;
+    font-size: 0.8em;
+    margin: -0.5em auto 0 auto;
+	
+}
+ol.postscript::after {
+	
+    content: '';
+    height: 0.5em;
+    display: block;
+    clear: both;
+	
+}
+ol.postscript li {
+	
+    float: left;
+    padding-right: 1.25em;
+	
+}
+ol.postscript li.date {
+	
+    float: right;
+    margin-right: 0;
+	
+}
+
+.wrap a:link,
+.wrap a:visited {
+	
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+	
+}
+
+.wrap a:hover,
+.wrap a:active,
+.wrap a:focus {
+	
+    color: #f00;
+    border-bottom: 1px solid #f00;
+	
+}
+
+.load {
+	
+	border: 3px solid #00ffff;
+	border-radius: 3px;
+	background: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+}
+
+
+
+#commForm {
+	
+	width: 800px;
+	margin: 0 auto;
+	
+}
+
+#authorName {
+	
+	width: 100%;
+    
+	
+}
+#commBox{
+	
+	width: 100%;
+	resize: none;
+	
+	
+}
+input, label {
+	
+	display: block;
+	margin-bottom: 10px;
+	
+	
+}
+
+input,textarea {
+	margin-bottom: 5%;
+}
+
+#submitButton {
+	
+	text-align: center;
+	width: 800px;
+	
+	position: relative;
+	
+}
+/*
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*/
